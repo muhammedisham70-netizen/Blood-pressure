@@ -59,3 +59,12 @@ button:hover {
     font-size: 20px;
     font-weight: bold;
 }
+button:active {
+    transform: scale(0.96);
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #007BFF;
+    box-shadow: 0 0 5px rgba(0,123,255,0.5);
+}
