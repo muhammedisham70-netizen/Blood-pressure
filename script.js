@@ -1,3 +1,8 @@
+document.addEventListener("keypress", function(e){
+    if(e.key === "Enter"){
+        checkBP();
+    }
+});
 function checkBP() {
 
     let sys = document.getElementById("sys").value.trim();
